@@ -1,0 +1,526 @@
+/*Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 480px*/
+@media screen and (max-width: 480px) {
+  body {
+    background-color: #f8f8f8;
+    font-size: 18px;
+  }
+  /* HOME */
+  /* MENU DE NAVIGATION */
+  nav {
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+  }
+  ul li {
+    display: inline-block;
+    padding: 0.8rem 0.1rem;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #d6c64c;
+  }
+  /* MAIN-HOME */
+  .bloc-home-info {
+    text-align: center;
+    padding-top: 15vh;
+  }
+  .title-home-color {
+    color: #d6c64c;
+  }
+  .para-home {
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+  .bloc-home-image {
+    padding-top: 7.5vh;
+    text-align: center;
+    background-color: #d6c64c;
+  }
+  .tof {
+    width: 150px;
+    padding-bottom: 20vh;
+  }
+  .text-copy-footer-color {
+    color: #f8f8f8;
+  }
+  footer {
+    background-color: #d6c64c;
+    text-align: center;
+    height: 5vh;
+    font-size: 1rem;
+    margin-top: 18vh;
+    padding-top: 1vh;
+    padding-bottom: 4vh;
+  }
+  /* ABOUT */
+  .h2-title-center-color {
+    text-align: center;
+    color: #d6c64c;
+  }
+  .h3-title-color {
+    color: #d6c64c;
+  }
+  .art-about {
+    text-align: center;
+  }
+  .text-color {
+    color: #d6c64c;
+  }
+  /* COMPETENCES */
+  .nivo {
+    text-align: center;
+  }
+  .span-skills {
+    padding-left: 11.5rem;
+  }
+  /* CE QUE JE FAIS? */
+  .bloc-do {
+    text-align: center;
+  }
+  c
+    /* WORKS */
+    .bloc-works {
+    text-align: center;
+  }
+  /* /CONTACT */
+  form,
+  .sec-form {
+    text-align: center;
+    line-height: 5vh;
+  }
+  .form-maps {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 5vh;
+  }
+  input,
+  textarea {
+    border: 2px solid #d6c64c;
+  }
+  .btn {
+    color: #d6c64c;
+    font-weight: 700;
+    background-color: #f8f8f8;
+  }
+}
+
+/*Styles spécifiques pour les écrans de taille moyenne type tablette*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    background-color: #f8f8f8;
+    font-size: 18px;
+  }
+  /* HOME */
+  /* MENU DE NAVIGATION */
+  nav {
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+  }
+  ul li {
+    display: inline-block;
+    padding: 0.8rem 0.1rem;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #d6c64c;
+  }
+  nav {
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+  }
+  ul li {
+    display: inline-block;
+    padding: 0.8rem 0.1rem;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #d6c64c;
+  }
+  /* MAIN-HOME */
+  .bloc-home {
+    display: flex;
+    flex: 1;
+  }
+  .title-home-color {
+    color: #d6c64c;
+    font-size: 1.4rem;
+    padding-top: 15vh;
+  }
+  .para-home {
+    font-weight: 800;
+    font-size: 1rem;
+  }
+  .bloc-home-image {
+    margin-top: 10vh;
+    padding-bottom: 10vh;
+    text-align: center;
+    background-color: #d6c64c;
+    margin-left: 30vh;
+  }
+  .tof {
+    width: 250px;
+  }
+  .text-copy-footer-color {
+    color: #f8f8f8;
+  }
+  footer {
+    background-color: #d6c64c;
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-top: 10vh;
+  }
+  /* ABOUT */
+  .h2-title-center-color {
+    text-align: center;
+    color: #d6c64c;
+  }
+  .h3-title-color {
+    color: #d6c64c;
+  }
+  .bloc-about {
+    padding-left: 3rem;
+  }
+  .art-about {
+    display: flex;
+    font-size: 1rem;
+  }
+  .para-about-me {
+    padding-left: 2rem;
+  }
+  .text-color {
+    color: #d6c64c;
+  }
+  /* COMPETENCES */
+  .nivo {
+    height: 9vh;
+  }
+  .span-cp,
+  .fil {
+    font-size: 1rem;
+  }
+  .fil {
+    padding-left: 3rem;
+  }
+  .bloc-skills {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* CE QUE JE FAIS?  */
+  .bloc-do {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* WORKS */
+  .bloc-works {
+    display: flex;
+    justify-content: space-around;
+  }
+  .fonct {
+    width: 150px;
+  }
+  .para-works {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  /* CONTACT */
+  .h3-title-color {
+    color: #d6c64c;
+  }
+  #main-contact {
+    display: flex;
+    justify-content: space-around;
+  }
+  input,
+  textarea {
+    border: 2px solid #d6c64c;
+  }
+  .texto {
+    width: 55vw;
+  }
+  .input-subject {
+    width: 55vw;
+    margin-top: 0.8rem;
+  }
+  .form-maps {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 5vh;
+  }
+  .btn {
+    padding: 5px;
+    margin-top: 0.8rem;
+    font-weight: 700;
+    color: #d6c64c;
+  }
+}
+
+/*Styles spécifiques pour les écrans de taille moyenne type tablette*/
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  body {
+    background-color: #f8f8f8;
+    font-size: 18px;
+  }
+  /* HOME */
+  ul {
+    list-style-type: none;
+  }
+  ul li {
+    display: inline-block;
+    padding: 0.8rem 0.1rem;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #d6c64c;
+  }
+  nav {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .bloc-home {
+    display: flex;
+    justify-content: space-around;
+  }
+  .bloc-home-info {
+    margin-top: 20vh;
+  }
+  .title-home-color {
+    color: #d6c64c;
+    font-size: 2rem;
+  }
+  .para-home {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .bloc-home-image {
+    margin-top: 10vh;
+    padding-bottom: 10vh;
+    text-align: center;
+    background-color: #d6c64c;
+    margin-left: 30vh;
+  }
+  .tof {
+    width: 250px;
+  }
+  .text-copy-footer-color {
+    color: #f8f8f8;
+  }
+  footer {
+    background-color: #d6c64c;
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-top: 10vh;
+  }
+  /* ABOUT */
+  .h2-title-center-color {
+    color: #d6c64c;
+    text-align: center;
+  }
+  .h3-title-color {
+    color: #d6c64c;
+  }
+  .bloc-about {
+    padding-left: 3rem;
+    font-size: 1.8rem;
+  }
+  .art-about {
+    display: flex;
+    justify-content: space-around;
+  }
+  .text-color {
+    color: #d6c64c;
+  }
+  /* COMPETENCE */
+  .bloc-skills {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* CE QUE JE FAIS? */
+  .bloc-do {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* WOKRS */
+  .bloc-works {
+    display: flex;
+    justify-content: space-around;
+  }
+  .para-works {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  /* CONTACT */
+  #main-contact {
+    display: flex;
+    justify-content: space-around;
+  }
+  input,
+  textarea {
+    border: 2px solid #d6c64c;
+  }
+  .texto,
+  .input-subject {
+    width: 34.5vw;
+  }
+  .form-maps {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 5vh;
+  }
+  .btn {
+    padding: 5px;
+    margin-top: 0.8rem;
+    color: #d6c64c;
+    font-weight: 700;
+  }
+}
+/*Styles spécifiques pour les grands écrans type écrans d'ordinateur*/
+@media screen and (min-width: 1280px) {
+  body {
+    background-color: #f8f8f8;
+  }
+  /* HOME */
+  ul {
+    list-style-type: none;
+  }
+  ul li {
+    display: inline-block;
+    padding: 0.8rem 0.1rem;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #d6c64c;
+  }
+  nav {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .bloc-home {
+    display: flex;
+    justify-content: space-around;
+  }
+  .bloc-home-info {
+    margin-top: 20vh;
+  }
+  .title-home-color {
+    color: #d6c64c;
+    font-size: 2rem;
+  }
+  .para-home {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .bloc-home-image {
+    margin-top: 10vh;
+    padding-bottom: 10vh;
+    text-align: center;
+    background-color: #d6c64c;
+    margin-left: 30vh;
+  }
+  .tof {
+    width: 250px;
+  }
+  .text-copy-footer-color {
+    color: #f8f8f8;
+  }
+  footer {
+    background-color: #d6c64c;
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-top: 10vh;
+  }
+  /* ABOUT */
+  .h2-title-center-color {
+    color: #d6c64c;
+    text-align: center;
+  }
+  .h3-title-color {
+    color: #d6c64c;
+  }
+  .bloc-about {
+    padding-left: 3rem;
+    font-size: 1.8rem;
+  }
+  .art-about {
+    display: flex;
+    justify-content: space-around;
+  }
+  .text-color {
+    color: #d6c64c;
+  }
+  /* COMPETENCE */
+  .bloc-skills {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* CE QUE JE FAIS? */
+  .bloc-do {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* WOKRS */
+  .bloc-works {
+    display: flex;
+    justify-content: space-around;
+  }
+  .para-works {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  /* CONTACT */
+  #main-contact {
+    display: flex;
+    justify-content: space-around;
+  }
+  input,
+  textarea {
+    border: 2px solid #d6c64c;
+  }
+  .texto,
+  .input-subject {
+    width: 34.5vw;
+  }
+  .form-maps {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 5vh;
+  }
+  .btn {
+    padding: 5px;
+    margin-top: 0.8rem;
+    color: #d6c64c;
+    font-weight: 700;
+  }
+}
